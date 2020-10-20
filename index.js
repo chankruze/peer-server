@@ -8,7 +8,7 @@ Copyright (c) Geekofia 2020 and beyond
 const { PeerServer } = require("peer"),
   os = require("os");
 
-PeerServer({ port: 9000, path: "/" });
+PeerServer({ port: 9000, secure: true });
 
 const networkInterfaces = os.networkInterfaces();
 let SERV_URL = networkInterfaces.eth0[0].address;
