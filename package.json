@@ -1,0 +1,14 @@
+{
+  "name": "peer-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:chankruze/peer-server.git",
+  "author": "chankruze <chankruze@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "peer": "^0.5.3"
+  }
+}
